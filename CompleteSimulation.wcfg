@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Aaron/Dropbox/EE324/AudioRecorder/TotalSim_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="TotalSim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/TotalSim/MemAdr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemAdr[22:0]</obj_property>
+      <obj_property name="ObjectShortName">MemAdr[22:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/TotalSim/Data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/TotalSim/PWMData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PWMData[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PWMData[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/MemDB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemDB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MemDB[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/RedR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RedR</obj_property>
+      <obj_property name="ObjectShortName">RedR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/GreenR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GreenR</obj_property>
+      <obj_property name="ObjectShortName">GreenR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/Idle" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Idle</obj_property>
+      <obj_property name="ObjectShortName">Idle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/TotalSim/ControllerReset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ControllerReset</obj_property>
+      <obj_property name="ObjectShortName">ControllerReset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/Play" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Play</obj_property>
+      <obj_property name="ObjectShortName">Play</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/Stop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Stop</obj_property>
+      <obj_property name="ObjectShortName">Stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/Record" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Record</obj_property>
+      <obj_property name="ObjectShortName">Record</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/TotalSim/CellRAMShit/StateCounter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">StateCounter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">StateCounter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/TotalSim/CellRAMShit/ReadEnable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ReadEnable</obj_property>
+      <obj_property name="ObjectShortName">ReadEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/TotalSim/CellRAMShit/WriteEnable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WriteEnable</obj_property>
+      <obj_property name="ObjectShortName">WriteEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/TotalSim/CellRAMShit/pState" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pState[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pState[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/TotalSim/CellRAMShit/WriteFE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WriteFE</obj_property>
+      <obj_property name="ObjectShortName">WriteFE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TotalSim/TotalSim/CellRAMShit/DataRE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DataRE</obj_property>
+      <obj_property name="ObjectShortName">DataRE</obj_property>
+   </wvobject>
+</wave_config>

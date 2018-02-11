@@ -1,0 +1,176 @@
+ISim log file
+Running: C:\Users\Aaron\Dropbox\EE324\AudioRecorder\TotalSim_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Aaron/Dropbox/EE324/AudioRecorder/TotalSim_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 600.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+===============================================================
+157825.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+157845.000 ns  INFO: Async - Write
+157905.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0000
+161805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+165825.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+165845.000 ns  INFO: Async - Write
+165905.000 ns  INFO: Async - Write data latched, addr = 000001, Mask = 0, Data = 0075
+169805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+173825.000 ns  INFO: Async - Read, addr = 000002, Data = xxxx
+173845.000 ns  INFO: Async - Write
+173905.000 ns  INFO: Async - Write data latched, addr = 000002, Mask = 0, Data = 06aa
+177805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+181825.000 ns  INFO: Async - Read, addr = 000003, Data = xxxx
+181845.000 ns  INFO: Async - Write
+181905.000 ns  INFO: Async - Write data latched, addr = 000003, Mask = 0, Data = 0571
+185805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+189825.000 ns  INFO: Async - Read, addr = 000004, Data = xxxx
+189845.000 ns  INFO: Async - Write
+189905.000 ns  INFO: Async - Write data latched, addr = 000004, Mask = 0, Data = 0fff
+193805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+197825.000 ns  INFO: Async - Read, addr = 000005, Data = xxxx
+197845.000 ns  INFO: Async - Write
+197905.000 ns  INFO: Async - Write data latched, addr = 000005, Mask = 0, Data = 0fff
+201805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+205825.000 ns  INFO: Async - Read, addr = 000006, Data = xxxx
+205845.000 ns  INFO: Async - Write
+205905.000 ns  INFO: Async - Write data latched, addr = 000006, Mask = 0, Data = 0fff
+209805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+213825.000 ns  INFO: Async - Read, addr = 000007, Data = xxxx
+213845.000 ns  INFO: Async - Write
+213905.000 ns  INFO: Async - Write data latched, addr = 000007, Mask = 0, Data = 0fff
+217805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+221825.000 ns  INFO: Async - Read, addr = 000008, Data = xxxx
+221845.000 ns  INFO: Async - Write
+221905.000 ns  INFO: Async - Write data latched, addr = 000008, Mask = 0, Data = 0fff
+225805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+229825.000 ns  INFO: Async - Read, addr = 000009, Data = xxxx
+229845.000 ns  INFO: Async - Write
+229905.000 ns  INFO: Async - Write data latched, addr = 000009, Mask = 0, Data = 0fff
+233805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+237825.000 ns  INFO: Async - Read, addr = 00000a, Data = xxxx
+237845.000 ns  INFO: Async - Write
+237905.000 ns  INFO: Async - Write data latched, addr = 00000a, Mask = 0, Data = 0fff
+241805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+245825.000 ns  INFO: Async - Read, addr = 00000b, Data = xxxx
+245845.000 ns  INFO: Async - Write
+245905.000 ns  INFO: Async - Write data latched, addr = 00000b, Mask = 0, Data = 0fff
+249805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+253825.000 ns  INFO: Async - Read, addr = 00000c, Data = xxxx
+253845.000 ns  INFO: Async - Write
+253905.000 ns  INFO: Async - Write data latched, addr = 00000c, Mask = 0, Data = 0fff
+257805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+261825.000 ns  INFO: Async - Read, addr = 00000d, Data = xxxx
+261845.000 ns  INFO: Async - Write
+261905.000 ns  INFO: Async - Write data latched, addr = 00000d, Mask = 0, Data = 0fff
+265805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+269825.000 ns  INFO: Async - Read, addr = 00000e, Data = xxxx
+269845.000 ns  INFO: Async - Write
+269905.000 ns  INFO: Async - Write data latched, addr = 00000e, Mask = 0, Data = 0fff
+273805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+389875.000 ns  INFO: Async - Read, addr = 000000, Data = 0000
+393805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+397875.000 ns  INFO: Async - Read, addr = 000001, Data = 0075
+401805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+405875.000 ns  INFO: Async - Read, addr = 000002, Data = 06aa
+409805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+413875.000 ns  INFO: Async - Read, addr = 000003, Data = 0571
+417805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+421875.000 ns  INFO: Async - Read, addr = 000004, Data = 0fff
+425805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+429875.000 ns  INFO: Async - Read, addr = 000005, Data = 0fff
+433805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+437875.000 ns  INFO: Async - Read, addr = 000006, Data = 0fff
+441805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+445875.000 ns  INFO: Async - Read, addr = 000007, Data = 0fff
+449805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+453875.000 ns  INFO: Async - Read, addr = 000008, Data = 0fff
+457805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+461875.000 ns  INFO: Async - Read, addr = 000009, Data = 0fff
+465805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+469875.000 ns  INFO: Async - Read, addr = 00000a, Data = 0fff
+473805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+477875.000 ns  INFO: Async - Read, addr = 00000b, Data = 0fff
+481805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+485875.000 ns  INFO: Async - Read, addr = 00000c, Data = 0fff
+489805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+493875.000 ns  INFO: Async - Read, addr = 00000d, Data = 0fff
+497805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+501875.000 ns  INFO: Async - Read, addr = 00000e, Data = 0fff
+505805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+509875.000 ns  INFO: Async - Read, addr = 00000f, Data = xxxx
+513805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+517875.000 ns  INFO: Async - Read, addr = 000010, Data = xxxx
+521805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+525875.000 ns  INFO: Async - Read, addr = 000011, Data = xxxx
+529805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+533875.000 ns  INFO: Async - Read, addr = 000012, Data = xxxx
+537805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+541875.000 ns  INFO: Async - Read, addr = 000013, Data = xxxx
+545805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+549875.000 ns  INFO: Async - Read, addr = 000014, Data = xxxx
+553805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+557875.000 ns  INFO: Async - Read, addr = 000015, Data = xxxx
+561805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+565875.000 ns  INFO: Async - Read, addr = 000016, Data = xxxx
+569805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+573875.000 ns  INFO: Async - Read, addr = 000017, Data = xxxx
+577805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+581875.000 ns  INFO: Async - Read, addr = 000018, Data = xxxx
+585805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+589875.000 ns  INFO: Async - Read, addr = 000019, Data = xxxx
+593805.000 ns ERROR:  tCEM violation on CE#
+===============================================================
+597875.000 ns  INFO: Async - Read, addr = 00001a, Data = xxxx

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Aaron/Dropbox/EE324/AudioRecorder/RamController_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="RamController" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/RamController/DataOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DataOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/MemAdr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemAdr[22:0]</obj_property>
+      <obj_property name="ObjectShortName">MemAdr[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/RamCEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RamCEn</obj_property>
+      <obj_property name="ObjectShortName">RamCEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/RamOEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RamOEn</obj_property>
+      <obj_property name="ObjectShortName">RamOEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/RamWEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RamWEn</obj_property>
+      <obj_property name="ObjectShortName">RamWEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/RamADVn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RamADVn</obj_property>
+      <obj_property name="ObjectShortName">RamADVn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/RamUBn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RamUBn</obj_property>
+      <obj_property name="ObjectShortName">RamUBn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/RamLBn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RamLBn</obj_property>
+      <obj_property name="ObjectShortName">RamLBn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/RamCRE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RamCRE</obj_property>
+      <obj_property name="ObjectShortName">RamCRE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/MemDB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemDB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MemDB[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/Clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/ReadEnable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ReadEnable</obj_property>
+      <obj_property name="ObjectShortName">ReadEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/WriteEnable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WriteEnable</obj_property>
+      <obj_property name="ObjectShortName">WriteEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/DataIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DataIn[11:0]</obj_property>
+      <obj_property name="ObjectShortName">DataIn[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/MyRam/pState" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pState[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pState[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/MyRam/Data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/MyRam/StopRead" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">StopRead</obj_property>
+      <obj_property name="ObjectShortName">StopRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RamController/MyRam/StateCounter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">StateCounter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">StateCounter[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

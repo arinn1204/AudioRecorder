@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Jan 23 18:51:34 2015
+# Process ID: 3939
+# Log file: /home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.runs/Clock_synth_1/Clock.vds
+# Journal file: /home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.runs/Clock_synth_1/vivado.jou
+#-----------------------------------------------------------
+source Clock.tcl

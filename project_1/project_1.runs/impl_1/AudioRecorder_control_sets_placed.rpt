@@ -1,0 +1,65 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (lin64) Build 1071353 Tue Nov 18 16:47:07 MST 2014
+| Date         : Fri Jan 23 20:05:43 2015
+| Host         : aaron-All-Series running 64-bit Ubuntu 14.10
+| Command      : report_control_sets -verbose -file AudioRecorder_control_sets_placed.rpt
+| Design       : AudioRecorder
+| Device       : xc7a100t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    12 |
+| Minimum Number of register sites lost to control set restrictions |    52 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               9 |            5 |
+| No           | No                    | Yes                    |              96 |           25 |
+| No           | Yes                   | No                     |              12 |            5 |
+| Yes          | No                    | No                     |              36 |           13 |
+| Yes          | No                    | Yes                    |              36 |           17 |
+| Yes          | Yes                   | No                     |              23 |            6 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+----------------------------------+-----------------------+------------------+----------------+
+|         Clock Signal         |           Enable Signal          |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++------------------------------+----------------------------------+-----------------------+------------------+----------------+
+|  ControllerClock/StartSample |                                  | CellRAMShit/O4        |                1 |              2 |
+|  RunClocks/inst/Clock100MHz  |                                  |                       |                5 |              9 |
+|  sCLK_OBUF_BUFG              | Microphone/SPI/n_0_Done_i_1      | ControllerClock/SR[0] |                5 |             12 |
+|  sCLK_OBUF_BUFG              | Microphone/SPI/SyncEnable        | ControllerClock/SR[0] |                6 |             12 |
+|  RunClocks/inst/PWMClock     |                                  | ControllerClock/SR[0] |                5 |             12 |
+|  RunClocks/inst/PWMClock     | PWM/E[0]                         |                       |                2 |             12 |
+|  RunClocks/inst/Clock100MHz  | Microphone/SPI/E[0]              |                       |                6 |             12 |
+|  RunClocks/inst/Clock100MHz  | CellRAMShit/n_0_DataOut[11]_i_1  | ControllerClock/SR[0] |                6 |             12 |
+|  RunClocks/inst/Clock100MHz  | CellRAMShit/n_0_TempData[11]_i_1 |                       |                5 |             12 |
+|  sCLK_OBUF_BUFG              |                                  | ControllerClock/SR[0] |                6 |             20 |
+|  RunClocks/inst/Clock100MHz  | CellRAMShit/Counter06_out        | ControllerSM/O1       |                6 |             23 |
+|  RunClocks/inst/Clock100MHz  |                                  | ControllerClock/SR[0] |               18 |             74 |
++------------------------------+----------------------------------+-----------------------+------------------+----------------+
+
+

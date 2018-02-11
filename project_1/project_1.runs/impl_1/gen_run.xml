@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1422072315">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="AudioRecorder.vdi"/>
+  <File Type="BG-DRC" Name="AudioRecorder.drc"/>
+  <File Type="BG-BGN" Name="AudioRecorder.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="AudioRecorder.sysdef"/>
+  <File Type="BITSTR-MMI" Name="AudioRecorder.mmi"/>
+  <File Type="BITSTR-BMM" Name="AudioRecorder_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="AudioRecorder.nky"/>
+  <File Type="BITSTR-RBT" Name="AudioRecorder.rbt"/>
+  <File Type="BITSTR-MSK" Name="AudioRecorder.msk"/>
+  <File Type="BG-BIN" Name="AudioRecorder.bin"/>
+  <File Type="BG-BIT" Name="AudioRecorder.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="AudioRecorder_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="AudioRecorder_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="AudioRecorder_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="AudioRecorder_postroute_physopt.dcp"/>
+  <File Type="ROUTE-SIMILARITY" Name="AudioRecorder_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="AudioRecorder_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="AudioRecorder_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="AudioRecorder_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="AudioRecorder_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="AudioRecorder_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="AudioRecorder_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="AudioRecorder_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="AudioRecorder_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="AudioRecorder_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="AudioRecorder_routed.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="AudioRecorder_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="AudioRecorder_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="AudioRecorder_postplace_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="AudioRecorder_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="AudioRecorder_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="AudioRecorder_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="AudioRecorder_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="AudioRecorder_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="AudioRecorder_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="AudioRecorder_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="AudioRecorder_placed.dcp"/>
+  <File Type="PWROPT-DRC" Name="AudioRecorder_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="AudioRecorder_pwropt.dcp"/>
+  <File Type="OPT-DRC" Name="AudioRecorder_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="AudioRecorder_opt.dcp"/>
+  <File Type="PA-TCL" Name="AudioRecorder.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../DeBouncer.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TriColorControl.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../RAMSimulation/cellram.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../RAMSimulation/tb.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../WorkingMemoryController.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../SPI_Microphone/SPI-Controller.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../SPI_Microphone/PModMic.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../PWMWrapper.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../MemoryController.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ClockDivider.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../AudioController.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../MicrophoneWrapper.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../RAMSimulation/cellram_parameters.vh">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../RAMSimulation/subtest.vh">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/import_ise_summary.txt"/>
+    <File Path="$PSRCDIR/sources_1/ip/Clock/Clock.upgrade_log"/>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="AudioRecorder"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/FPGAStuff/Nexys4_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../FPGAStuff/Nexys4_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1378326382"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/FPGAStuff/Nexys4_Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Clock"/>
+</GenRun>

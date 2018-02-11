@@ -1,0 +1,645 @@
+ISim log file
+Running: C:\Users\Aaron\Dropbox\EE324\AudioRecorder\RamController_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Aaron/Dropbox/EE324/AudioRecorder/RamController_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 155.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+===============================================================
+150125.000 ns  INFO: Async - Write
+150175.000 ns ERROR:   tCW violation on CE# by 15.000 ns
+150175.000 ns ERROR:   tWC violation on ADDR
+150175.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = zzzz
+150175.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150180.000 ns ERROR:  tOW violation on DQ
+154105.000 ns ERROR:  tCEM violation on CE#
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 155.00us
+===============================================================
+150125.000 ns  INFO: Async - Write
+150175.000 ns ERROR:   tCW violation on CE# by 15.000 ns
+150175.000 ns ERROR:   tWC violation on ADDR
+150175.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = zzzz
+150175.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150180.000 ns ERROR:  tOW violation on DQ
+150180.000 ns ERROR: Async - Illegal or unintended Page Mode Read.  Page mode is disabled in BCR
+150180.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+154105.000 ns ERROR:  tCEM violation on CE#
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150125.000 ns  INFO: Async - Write
+150175.000 ns ERROR:   tCW violation on CE# by 15.000 ns
+150175.000 ns ERROR:   tWC violation on ADDR
+150175.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = zzzz
+150175.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150180.000 ns ERROR:  tOW violation on DQ
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150125.000 ns  INFO: Async - Write
+150175.000 ns ERROR:   tCW violation on CE# by 15.000 ns
+150175.000 ns ERROR:   tWC violation on ADDR
+150175.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = zzzz
+150175.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150180.000 ns ERROR:  tOW violation on DQ
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+===============================================================
+5.000 ns  WARN:   tPU violation on CE# by 149995.000 ns
+# run 151.00us
+4005.000 ns ERROR:  tCEM violation on CE#
+150165.000 ns  INFO: Async - Write
+150175.000 ns ERROR:   tWP violation on WE# by 45.000 ns
+150175.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = zzzz
+150185.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+===============================================================
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+===============================================================
+5.000 ns  WARN:   tPU violation on CE# by 149995.000 ns
+# run 151.00us
+4005.000 ns ERROR:  tCEM violation on CE#
+150165.000 ns  INFO: Async - Write
+150185.000 ns ERROR: Async - Illegal or unintended Page Mode Write.
+150185.000 ns  INFO: Async - Write
+150215.000 ns ERROR:   tWP violation on WE# by 5.000 ns
+150215.000 ns ERROR:   tDW violation on DQ by 10.000 ns
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+===============================================================
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+===============================================================
+5.000 ns  WARN:   tPU violation on CE# by 149995.000 ns
+# run 151.00us
+4005.000 ns ERROR:  tCEM violation on CE#
+150165.000 ns  INFO: Async - Write
+150185.000 ns ERROR: Async - Illegal or unintended Page Mode Write.
+150185.000 ns  INFO: Async - Write
+150215.000 ns ERROR:   tWP violation on WE# by 5.000 ns
+150215.000 ns ERROR:   tDW violation on DQ by 10.000 ns
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+===============================================================
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+===============================================================
+5.000 ns  WARN:   tPU violation on CE# by 149995.000 ns
+# run 151.00us
+4005.000 ns ERROR:  tCEM violation on CE#
+150165.000 ns  INFO: Async - Write
+150185.000 ns ERROR: Async - Illegal or unintended Page Mode Write.
+150185.000 ns  INFO: Async - Write
+150215.000 ns ERROR:   tWP violation on WE# by 5.000 ns
+150215.000 ns ERROR:   tDW violation on DQ by 10.000 ns
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+===============================================================
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150165.000 ns  INFO: Async - Write
+150185.000 ns ERROR: Async - Illegal or unintended Page Mode Write.
+150185.000 ns  INFO: Async - Write
+150215.000 ns ERROR:   tWP violation on WE# by 5.000 ns
+150215.000 ns ERROR:   tDW violation on DQ by 10.000 ns
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150165.000 ns  INFO: Async - Write
+150185.000 ns ERROR: Async - Illegal or unintended Page Mode Write.
+150185.000 ns  INFO: Async - Write
+150215.000 ns ERROR:   tWP violation on WE# by 5.000 ns
+150215.000 ns ERROR:   tDW violation on DQ by 10.000 ns
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150165.000 ns  INFO: Async - Write
+150215.000 ns ERROR:   tWP violation on WE# by 5.000 ns
+150215.000 ns ERROR:   tDW violation on DQ by 10.000 ns
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns ERROR:   tDW violation on DQ by 10.000 ns
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+154115.000 ns ERROR:  tCEM violation on CE#
+Stopped at time : 14378980 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/RamController.v" Line 85
+# restart
+# run 151.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns ERROR:   tDW violation on DQ by 10.000 ns
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns ERROR:   tDW violation on DQ by 10.000 ns
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns ERROR:   tDW violation on DQ by 10.000 ns
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+150215.000 ns  INFO: Async - Read, addr = 000000, Data = 0802
+150220.000 ns ERROR:  tOW violation on DQ
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns ERROR:   tDW violation on DQ by 10.000 ns
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0c8e
+===============================================================
+150255.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+150275.000 ns  INFO: Async - Write
+150335.000 ns  INFO: Async - Write data latched, addr = 000001, Mask = 0, Data = 0c8e
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+===============================================================
+150255.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+150275.000 ns  INFO: Async - Write
+150335.000 ns  INFO: Async - Write data latched, addr = 000001, Mask = 0, Data = 0c8e
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+===============================================================
+150255.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+150275.000 ns  INFO: Async - Write
+150335.000 ns  INFO: Async - Write data latched, addr = 000001, Mask = 0, Data = 0c8e
+===============================================================
+150375.000 ns  INFO: Async - Read, addr = 000002, Data = xxxx
+150395.000 ns  INFO: Async - Write
+150455.000 ns  INFO: Async - Write data latched, addr = 000002, Mask = 0, Data = 04c0
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+===============================================================
+150255.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+150275.000 ns  INFO: Async - Write
+150335.000 ns  INFO: Async - Write data latched, addr = 000001, Mask = 0, Data = 0c8e
+===============================================================
+150375.000 ns  INFO: Async - Read, addr = 000002, Data = xxxx
+150395.000 ns  INFO: Async - Write
+150455.000 ns  INFO: Async - Write data latched, addr = 000002, Mask = 0, Data = 04c0
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = zzzz
+===============================================================
+150255.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+150275.000 ns  INFO: Async - Write
+150335.000 ns  INFO: Async - Write data latched, addr = 000001, Mask = 0, Data = zzzz
+===============================================================
+150375.000 ns  INFO: Async - Read, addr = 000002, Data = xxxx
+150395.000 ns  INFO: Async - Write
+150455.000 ns  INFO: Async - Write data latched, addr = 000002, Mask = 0, Data = zzzz
+===============================================================
+150495.000 ns  INFO: Async - Read, addr = 000003, Data = xxxx
+150515.000 ns  INFO: Async - Write
+150575.000 ns  INFO: Async - Write data latched, addr = 000003, Mask = 0, Data = zzzz
+===============================================================
+150615.000 ns  INFO: Async - Read, addr = 000004, Data = xxxx
+150635.000 ns  INFO: Async - Write
+150695.000 ns  INFO: Async - Write data latched, addr = 000004, Mask = 0, Data = zzzz
+===============================================================
+150735.000 ns  INFO: Async - Read, addr = 000005, Data = xxxx
+150755.000 ns  INFO: Async - Write
+150815.000 ns  INFO: Async - Write data latched, addr = 000005, Mask = 0, Data = zzzz
+===============================================================
+150855.000 ns  INFO: Async - Read, addr = 000006, Data = xxxx
+150875.000 ns  INFO: Async - Write
+150935.000 ns  INFO: Async - Write data latched, addr = 000006, Mask = 0, Data = zzzz
+===============================================================
+150975.000 ns  INFO: Async - Read, addr = 000007, Data = xxxx
+150995.000 ns  INFO: Async - Write
+151055.000 ns  INFO: Async - Write data latched, addr = 000007, Mask = 0, Data = zzzz
+===============================================================
+151095.000 ns  INFO: Async - Read, addr = 000008, Data = xxxx
+151115.000 ns  INFO: Async - Write
+151175.000 ns  INFO: Async - Write data latched, addr = 000008, Mask = 0, Data = zzzz
+===============================================================
+151215.000 ns  INFO: Async - Read, addr = 000009, Data = xxxx
+151235.000 ns  INFO: Async - Write
+151295.000 ns  INFO: Async - Write data latched, addr = 000009, Mask = 0, Data = zzzz
+===============================================================
+151335.000 ns  INFO: Async - Read, addr = 00000a, Data = xxxx
+151355.000 ns  INFO: Async - Write
+151415.000 ns  INFO: Async - Write data latched, addr = 00000a, Mask = 0, Data = zzzz
+===============================================================
+151455.000 ns  INFO: Async - Read, addr = 00000b, Data = xxxx
+151475.000 ns  INFO: Async - Write
+151535.000 ns  INFO: Async - Write data latched, addr = 00000b, Mask = 0, Data = zzzz
+===============================================================
+151575.000 ns  INFO: Async - Read, addr = 00000c, Data = xxxx
+151595.000 ns  INFO: Async - Write
+151655.000 ns  INFO: Async - Write data latched, addr = 00000c, Mask = 0, Data = zzzz
+===============================================================
+151695.000 ns  INFO: Async - Read, addr = 00000d, Data = xxxx
+151715.000 ns  INFO: Async - Write
+151775.000 ns  INFO: Async - Write data latched, addr = 00000d, Mask = 0, Data = zzzz
+===============================================================
+151815.000 ns  INFO: Async - Read, addr = 00000e, Data = xxxx
+151835.000 ns  INFO: Async - Write
+151895.000 ns  INFO: Async - Write data latched, addr = 00000e, Mask = 0, Data = zzzz
+===============================================================
+151935.000 ns  INFO: Async - Read, addr = 00000f, Data = xxxx
+151955.000 ns  INFO: Async - Write
+# restart
+# run 151.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = zzzz
+===============================================================
+150255.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+150275.000 ns  INFO: Async - Write
+150335.000 ns  INFO: Async - Write data latched, addr = 000001, Mask = 0, Data = zzzz
+===============================================================
+150375.000 ns  INFO: Async - Read, addr = 000002, Data = xxxx
+150395.000 ns  INFO: Async - Write
+150455.000 ns  INFO: Async - Write data latched, addr = 000002, Mask = 0, Data = zzzz
+===============================================================
+150495.000 ns  INFO: Async - Read, addr = 000003, Data = xxxx
+150515.000 ns  INFO: Async - Write
+150575.000 ns  INFO: Async - Write data latched, addr = 000003, Mask = 0, Data = zzzz
+===============================================================
+150615.000 ns  INFO: Async - Read, addr = 000004, Data = xxxx
+150635.000 ns  INFO: Async - Write
+150695.000 ns  INFO: Async - Write data latched, addr = 000004, Mask = 0, Data = zzzz
+===============================================================
+150735.000 ns  INFO: Async - Read, addr = 000005, Data = xxxx
+150755.000 ns  INFO: Async - Write
+150815.000 ns  INFO: Async - Write data latched, addr = 000005, Mask = 0, Data = zzzz
+===============================================================
+150855.000 ns  INFO: Async - Read, addr = 000006, Data = xxxx
+150875.000 ns  INFO: Async - Write
+150935.000 ns  INFO: Async - Write data latched, addr = 000006, Mask = 0, Data = zzzz
+===============================================================
+150975.000 ns  INFO: Async - Read, addr = 000007, Data = xxxx
+150995.000 ns  INFO: Async - Write
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+===============================================================
+150255.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+150275.000 ns  INFO: Async - Write
+150335.000 ns  INFO: Async - Write data latched, addr = 000001, Mask = 0, Data = 0c8e
+===============================================================
+150375.000 ns  INFO: Async - Read, addr = 000002, Data = xxxx
+150395.000 ns  INFO: Async - Write
+150455.000 ns  INFO: Async - Write data latched, addr = 000002, Mask = 0, Data = 04c0
+===============================================================
+150495.000 ns  INFO: Async - Read, addr = 000003, Data = xxxx
+150515.000 ns  INFO: Async - Write
+150575.000 ns  INFO: Async - Write data latched, addr = 000003, Mask = 0, Data = 04c0
+===============================================================
+150615.000 ns  INFO: Async - Read, addr = 000004, Data = xxxx
+150635.000 ns  INFO: Async - Write
+150695.000 ns  INFO: Async - Write data latched, addr = 000004, Mask = 0, Data = 04c0
+===============================================================
+150735.000 ns  INFO: Async - Read, addr = 000005, Data = xxxx
+150755.000 ns  INFO: Async - Write
+150815.000 ns  INFO: Async - Write data latched, addr = 000005, Mask = 0, Data = 04c0
+===============================================================
+150855.000 ns  INFO: Async - Read, addr = 000006, Data = xxxx
+150875.000 ns  INFO: Async - Write
+150935.000 ns  INFO: Async - Write data latched, addr = 000006, Mask = 0, Data = 04c0
+===============================================================
+150975.000 ns  INFO: Async - Read, addr = 000007, Data = xxxx
+150995.000 ns  INFO: Async - Write
+151055.000 ns  INFO: Async - Write data latched, addr = 000007, Mask = 0, Data = 04c0
+===============================================================
+151095.000 ns  INFO: Async - Read, addr = 000008, Data = xxxx
+151115.000 ns  INFO: Async - Write
+151175.000 ns  INFO: Async - Write data latched, addr = 000008, Mask = 0, Data = 04c0
+===============================================================
+151215.000 ns  INFO: Async - Read, addr = 000009, Data = xxxx
+151235.000 ns  INFO: Async - Write
+151295.000 ns  INFO: Async - Write data latched, addr = 000009, Mask = 0, Data = 04c0
+===============================================================
+151335.000 ns  INFO: Async - Read, addr = 00000a, Data = xxxx
+151355.000 ns  INFO: Async - Write
+151415.000 ns  INFO: Async - Write data latched, addr = 00000a, Mask = 0, Data = 04c0
+===============================================================
+151455.000 ns  INFO: Async - Read, addr = 00000b, Data = xxxx
+151475.000 ns  INFO: Async - Write
+151535.000 ns  INFO: Async - Write data latched, addr = 00000b, Mask = 0, Data = 04c0
+===============================================================
+151575.000 ns  INFO: Async - Read, addr = 00000c, Data = xxxx
+151595.000 ns  INFO: Async - Write
+151655.000 ns  INFO: Async - Write data latched, addr = 00000c, Mask = 0, Data = 04c0
+===============================================================
+151695.000 ns  INFO: Async - Read, addr = 00000d, Data = xxxx
+151715.000 ns  INFO: Async - Write
+151775.000 ns  INFO: Async - Write data latched, addr = 00000d, Mask = 0, Data = 04c0
+===============================================================
+151815.000 ns  INFO: Async - Read, addr = 00000e, Data = xxxx
+151835.000 ns  INFO: Async - Write
+151895.000 ns  INFO: Async - Write data latched, addr = 00000e, Mask = 0, Data = 04c0
+===============================================================
+151935.000 ns  INFO: Async - Read, addr = 00000f, Data = xxxx
+151955.000 ns  INFO: Async - Write
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.00us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+===============================================================
+150255.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+150275.000 ns  INFO: Async - Write
+150335.000 ns  INFO: Async - Write data latched, addr = 000001, Mask = 0, Data = 0c8e
+===============================================================
+150375.000 ns  INFO: Async - Read, addr = 000002, Data = xxxx
+150395.000 ns  INFO: Async - Write
+150455.000 ns  INFO: Async - Write data latched, addr = 000002, Mask = 0, Data = 04c0
+# restart
+# run 150.425us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 184
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 181
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 193
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 179
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Desktop/RAMSimulation/cellram.v" Line 128
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 194
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Desktop/RAMSimulation/cellram.v" Line 308
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Desktop/RAMSimulation/cellram.v" Line 1288
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Desktop/RAMSimulation/cellram.v" Line 1289
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Desktop/RAMSimulation/cellram.v" Line 1289
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Desktop/RAMSimulation/cellram.v" Line 1290
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Desktop/RAMSimulation/cellram.v" Line 1293
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Desktop/RAMSimulation/cellram.v" Line 1288
+# step
+Stopped at time : 150195 ns : File "C:/Users/Aaron/Desktop/RAMSimulation/cellram.v" Line 138
+# step
+Stopped at time : 150200 ns : File "C:/Users/Aaron/Desktop/RAMSimulation/cellram.v" Line 422
+# step
+Stopped at time : 150200 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/RamController.v" Line 89
+# restart
+# run 150.425us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+===============================================================
+150255.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+150275.000 ns  INFO: Async - Write
+150335.000 ns  INFO: Async - Write data latched, addr = 000001, Mask = 0, Data = 0c8e
+===============================================================
+150375.000 ns  INFO: Async - Read, addr = 000002, Data = xxxx
+150395.000 ns  INFO: Async - Write
+# step
+Stopped at time : 150430 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/RamController.v" Line 89
+# step
+Stopped at time : 150430 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/RamController.v" Line 89
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/RamController.v" Line 89
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/RamController.v" Line 89
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 87
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 88
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 90
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 92
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 94
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 97
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 86
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 101
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 102
+# step
+Stopped at time : 150435 ns : File "C:/Users/Aaron/Dropbox/EE324/AudioRecorder/MemoryController.v" Line 104
+# restart
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 151.425us
+===============================================================
+150135.000 ns  INFO: Async - Read, addr = 000000, Data = xxxx
+150155.000 ns  INFO: Async - Write
+150215.000 ns  INFO: Async - Write data latched, addr = 000000, Mask = 0, Data = 0802
+===============================================================
+150255.000 ns  INFO: Async - Read, addr = 000001, Data = xxxx
+150275.000 ns  INFO: Async - Write
+150335.000 ns  INFO: Async - Write data latched, addr = 000001, Mask = 0, Data = 0c8e
+===============================================================
+150375.000 ns  INFO: Async - Read, addr = 000002, Data = xxxx
+150395.000 ns  INFO: Async - Write
+150455.000 ns  INFO: Async - Write data latched, addr = 000002, Mask = 0, Data = f4c0

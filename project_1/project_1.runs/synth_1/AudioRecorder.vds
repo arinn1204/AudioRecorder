@@ -1,0 +1,527 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Jan 23 20:04:43 2015
+# Process ID: 10730
+# Log file: /home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.runs/synth_1/AudioRecorder.vds
+# Journal file: /home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source AudioRecorder.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a100tcsg324-1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at /opt/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at /opt/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.1 available at /opt/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.1/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at /opt/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at /opt/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at /opt/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir /home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.cache/wt [current_project]
+# set_property parent.project_path /home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# add_files -quiet /home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.runs/Clock_synth_1/Clock.dcp
+# set_property used_in_implementation false [get_files /home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.runs/Clock_synth_1/Clock.dcp]
+# read_verilog {
+#   /home/aaron/Dropbox/EE324/AudioRecorder/RAMSimulation/cellram_parameters.vh
+#   /home/aaron/Dropbox/EE324/AudioRecorder/RAMSimulation/subtest.vh
+# }
+# read_verilog -library xil_defaultlib {
+#   /home/aaron/Dropbox/EE324/AudioRecorder/DeBouncer.v
+#   /home/aaron/Dropbox/EE324/AudioRecorder/TriColorControl.v
+#   /home/aaron/Dropbox/EE324/AudioRecorder/RAMSimulation/cellram.v
+#   /home/aaron/Dropbox/EE324/AudioRecorder/RAMSimulation/tb.v
+#   /home/aaron/Dropbox/EE324/AudioRecorder/WorkingMemoryController.v
+#   /home/aaron/Dropbox/EE324/SPI_Microphone/SPI-Controller.v
+#   /home/aaron/Dropbox/EE324/SPI_Microphone/PModMic.v
+#   /home/aaron/Dropbox/EE324/AudioRecorder/PWMWrapper.v
+#   /home/aaron/Dropbox/EE324/AudioRecorder/MemoryController.v
+#   /home/aaron/Dropbox/EE324/AudioRecorder/ClockDivider.v
+#   /home/aaron/Dropbox/EE324/AudioRecorder/AudioController.v
+#   /home/aaron/Dropbox/EE324/AudioRecorder/MicrophoneWrapper.v
+# }
+# read_xdc /home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.srcs/constrs_1/imports/FPGAStuff/Nexys4_Master.xdc
+# set_property used_in_implementation false [get_files /home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.srcs/constrs_1/imports/FPGAStuff/Nexys4_Master.xdc]
+# catch { write_hwdef -file AudioRecorder.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top AudioRecorder -part xc7a100tcsg324-1
+Command: synth_design -top AudioRecorder -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 891.426 ; gain = 136.727 ; free physical = 609 ; free virtual = 26718
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'AudioRecorder' [/home/aaron/Dropbox/EE324/AudioRecorder/MicrophoneWrapper.v:21]
+	Parameter PWMBITS bound to: 12 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Clock' [/home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.runs/synth_1/.Xil/Vivado-10730-aaron-All-Series/realtime/Clock_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'Clock' (1#1) [/home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.runs/synth_1/.Xil/Vivado-10730-aaron-All-Series/realtime/Clock_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'ClockDivider' [/home/aaron/Dropbox/EE324/AudioRecorder/ClockDivider.v:3]
+	Parameter BUSSIZE bound to: 20 - type: integer 
+	Parameter LIMIT bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClockDivider' (2#1) [/home/aaron/Dropbox/EE324/AudioRecorder/ClockDivider.v:3]
+INFO: [Synth 8-638] synthesizing module 'ClockDivider__parameterized0' [/home/aaron/Dropbox/EE324/AudioRecorder/ClockDivider.v:3]
+	Parameter BUSSIZE bound to: 50 - type: integer 
+	Parameter LIMIT bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClockDivider__parameterized0' (2#1) [/home/aaron/Dropbox/EE324/AudioRecorder/ClockDivider.v:3]
+INFO: [Synth 8-638] synthesizing module 'AudioController' [/home/aaron/Dropbox/EE324/AudioRecorder/AudioController.v:21]
+	Parameter Idle bound to: 2'b00 
+	Parameter PlayRecorded bound to: 2'b01 
+	Parameter StartRecording bound to: 2'b10 
+INFO: [Synth 8-256] done synthesizing module 'AudioController' (3#1) [/home/aaron/Dropbox/EE324/AudioRecorder/AudioController.v:21]
+INFO: [Synth 8-638] synthesizing module 'PModMic' [/home/aaron/Dropbox/EE324/SPI_Microphone/PModMic.v:5]
+	Parameter Idle bound to: 2'b00 
+	Parameter ShiftData bound to: 2'b01 
+	Parameter SyncData bound to: 2'b10 
+INFO: [Synth 8-638] synthesizing module 'SPI_Controller' [/home/aaron/Dropbox/EE324/SPI_Microphone/SPI-Controller.v:4]
+	Parameter INCOMINGBITS bound to: 16 - type: integer 
+	Parameter SHIFTCOUNT bound to: 4 - type: integer 
+	Parameter SAMPLESIZE bound to: 12 - type: integer 
+	Parameter SAMPLEOUT bound to: 8 - type: integer 
+	Parameter TRANSMITSHIFTCOUNT bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SPI_Controller' (4#1) [/home/aaron/Dropbox/EE324/SPI_Microphone/SPI-Controller.v:4]
+INFO: [Synth 8-256] done synthesizing module 'PModMic' (5#1) [/home/aaron/Dropbox/EE324/SPI_Microphone/PModMic.v:5]
+INFO: [Synth 8-638] synthesizing module 'MemoryController' [/home/aaron/Dropbox/EE324/AudioRecorder/MemoryController.v:4]
+	Parameter INCOMINGDATA bound to: 12 - type: integer 
+	Parameter OUTGOINGDATA bound to: 12 - type: integer 
+	Parameter LEADINGONES bound to: 4 - type: integer 
+	Parameter LOWERLIMIT bound to: 12 - type: integer 
+	Parameter COMPLEADINGONES bound to: 4'b1111 
+	Parameter HundredNS bound to: 4'b1010 
+	Parameter MAXMEMORY bound to: 10'b0000000000 
+	Parameter Rest bound to: 2'b00 
+	Parameter Read bound to: 2'b01 
+	Parameter Write bound to: 2'b10 
+INFO: [Synth 8-256] done synthesizing module 'MemoryController' (6#1) [/home/aaron/Dropbox/EE324/AudioRecorder/MemoryController.v:4]
+INFO: [Synth 8-638] synthesizing module 'PWMWrapper' [/home/aaron/Dropbox/EE324/AudioRecorder/PWMWrapper.v:2]
+	Parameter PWMSIZE bound to: 12 - type: integer 
+	Parameter COUNTERLIMIT bound to: 4096 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'PWMWrapper' (7#1) [/home/aaron/Dropbox/EE324/AudioRecorder/PWMWrapper.v:2]
+INFO: [Synth 8-256] done synthesizing module 'AudioRecorder' (8#1) [/home/aaron/Dropbox/EE324/AudioRecorder/MicrophoneWrapper.v:21]
+WARNING: [Synth 8-3917] design AudioRecorder has port RamCLK driven by constant 0
+WARNING: [Synth 8-3917] design AudioRecorder has port ampSD driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 927.668 ; gain = 172.969 ; free physical = 570 ; free virtual = 26680
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin SPI:TransmitData[7] to constant 0 [/home/aaron/Dropbox/EE324/SPI_Microphone/PModMic.v:82]
+WARNING: [Synth 8-3295] tying undriven pin SPI:TransmitData[6] to constant 0 [/home/aaron/Dropbox/EE324/SPI_Microphone/PModMic.v:82]
+WARNING: [Synth 8-3295] tying undriven pin SPI:TransmitData[5] to constant 0 [/home/aaron/Dropbox/EE324/SPI_Microphone/PModMic.v:82]
+WARNING: [Synth 8-3295] tying undriven pin SPI:TransmitData[4] to constant 0 [/home/aaron/Dropbox/EE324/SPI_Microphone/PModMic.v:82]
+WARNING: [Synth 8-3295] tying undriven pin SPI:TransmitData[3] to constant 0 [/home/aaron/Dropbox/EE324/SPI_Microphone/PModMic.v:82]
+WARNING: [Synth 8-3295] tying undriven pin SPI:TransmitData[2] to constant 0 [/home/aaron/Dropbox/EE324/SPI_Microphone/PModMic.v:82]
+WARNING: [Synth 8-3295] tying undriven pin SPI:TransmitData[1] to constant 0 [/home/aaron/Dropbox/EE324/SPI_Microphone/PModMic.v:82]
+WARNING: [Synth 8-3295] tying undriven pin SPI:TransmitData[0] to constant 0 [/home/aaron/Dropbox/EE324/SPI_Microphone/PModMic.v:82]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 927.668 ; gain = 172.969 ; free physical = 570 ; free virtual = 26680
+---------------------------------------------------------------------------------
+Loading clock regions from /opt/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/PinFunctions.xml...
+Loading package from /opt/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from /opt/Xilinx/Vivado/2014.4/data/./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.runs/synth_1/.Xil/Vivado-10730-aaron-All-Series/dcp/Clock_in_context.xdc] for cell 'RunClocks'
+Finished Parsing XDC File [/home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.runs/synth_1/.Xil/Vivado-10730-aaron-All-Series/dcp/Clock_in_context.xdc] for cell 'RunClocks'
+Parsing XDC File [/home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.srcs/constrs_1/imports/FPGAStuff/Nexys4_Master.xdc]
+Finished Parsing XDC File [/home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.srcs/constrs_1/imports/FPGAStuff/Nexys4_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1275.891 ; gain = 0.000 ; free physical = 383 ; free virtual = 26494
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 383 ; free virtual = 26494
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 383 ; free virtual = 26494
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for SystemClock. (constraint file  /home/aaron/Dropbox/EE324/AudioRecorder/project_1/project_1.runs/synth_1/.Xil/Vivado-10730-aaron-All-Series/dcp/Clock_in_context.xdc, line 4).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 382 ; free virtual = 26493
+---------------------------------------------------------------------------------
+ROM "ClockDiv" won't be mapped to RAM because address size (21) is larger than maximum supported(18) 
+ROM "ClockDiv" won't be mapped to RAM because address size (51) is larger than maximum supported(18) 
+ROM "StartPlay" won't be mapped to Block RAM because address size (2) smaller than threshold (5) 
+ROM "StartRecord" won't be mapped to Block RAM because address size (2) smaller than threshold (5) 
+ROM "StopPlaying" won't be mapped to Block RAM because address size (2) smaller than threshold (5) 
+ROM "SyncEnable" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "nSS" won't be mapped to Block RAM because address size (2) smaller than threshold (5) 
+ROM "nState" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "nState" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "TempData0" won't be mapped to Block RAM because address size (2) smaller than threshold (5) 
+ROM "DataOut" won't be mapped to Block RAM because address size (2) smaller than threshold (5) 
+ROM "EnableOut" won't be mapped to RAM because it is too sparse.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 376 ; free virtual = 26486
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     51 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               51 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 7     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     51 Bit        Muxes := 1     
+	   2 Input     21 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 8     
+	   4 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 15    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module AudioRecorder 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 2     
+Module ClockDivider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     21 Bit       Adders := 1     
++---Registers : 
+	               21 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     21 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module ClockDivider__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     51 Bit       Adders := 1     
++---Registers : 
+	               51 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     51 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module AudioController 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module SPI_Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module PModMic 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module MemoryController 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+Module PWMWrapper 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 376 ; free virtual = 26486
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+ROM "SampleClock/ClockDiv" won't be mapped to RAM because address size (21) is larger than maximum supported(18) 
+ROM "ControllerClock/ClockDiv" won't be mapped to RAM because address size (51) is larger than maximum supported(18) 
+ROM "PWM/EnableOut" won't be mapped to RAM because it is too sparse.
+ROM "SampleClock/ClockDiv" won't be mapped to RAM because address size (21) is larger than maximum supported(18) 
+ROM "ControllerClock/ClockDiv" won't be mapped to RAM because address size (51) is larger than maximum supported(18) 
+WARNING: [Synth 8-3917] design AudioRecorder has port RamCLK driven by constant 0
+WARNING: [Synth 8-3917] design AudioRecorder has port RamADVn driven by constant 0
+WARNING: [Synth 8-3917] design AudioRecorder has port RamUBn driven by constant 0
+WARNING: [Synth 8-3917] design AudioRecorder has port RamLBn driven by constant 0
+WARNING: [Synth 8-3917] design AudioRecorder has port RamCRE driven by constant 0
+WARNING: [Synth 8-3917] design AudioRecorder has port ampSD driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 376 ; free virtual = 26486
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 376 ; free virtual = 26486
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CellRAMShit/CounterFullFlag_reg )
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/dataSent_reg[7] ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/dataSent_reg[6] ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/dataSent_reg[5] ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/dataSent_reg[4] ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/dataSent_reg[3] ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/dataSent_reg[2] ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/dataSent_reg[1] ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/dataSent_reg[0] ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\CellRAMShit/CounterFullFlag_reg ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/Data_reg[15] ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/Data_reg[14] ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/Data_reg[13] ) is unused and will be removed from module AudioRecorder.
+WARNING: [Synth 8-3332] Sequential element (\Microphone/SPI/Data_reg[12] ) is unused and will be removed from module AudioRecorder.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 351 ; free virtual = 26462
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 351 ; free virtual = 26462
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 351 ; free virtual = 26462
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 351 ; free virtual = 26462
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 307 ; free virtual = 26419
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 307 ; free virtual = 26419
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 297 ; free virtual = 26409
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 296 ; free virtual = 26408
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 296 ; free virtual = 26408
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 296 ; free virtual = 26408
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |Clock         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |Clock  |     1|
+|2     |BUFG   |     1|
+|3     |CARRY4 |    29|
+|4     |INV    |     1|
+|5     |LUT1   |   107|
+|6     |LUT2   |    54|
+|7     |LUT3   |    13|
+|8     |LUT4   |    73|
+|9     |LUT5   |     9|
+|10    |LUT6   |    27|
+|11    |FDCE   |   132|
+|12    |FDRE   |    80|
+|13    |IBUF   |     5|
+|14    |IOBUF  |    16|
+|15    |OBUF   |    38|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+-----------------------------+------+
+|      |Instance          |Module                       |Cells |
++------+------------------+-----------------------------+------+
+|1     |top               |                             |   587|
+|2     |  CellRAMShit     |MemoryController             |   119|
+|3     |  ControllerClock |ClockDivider__parameterized0 |   178|
+|4     |  ControllerSM    |AudioController              |    10|
+|5     |  Microphone      |PModMic                      |    65|
+|6     |    SPI           |SPI_Controller               |    62|
+|7     |  PWM             |PWMWrapper                   |    55|
+|8     |  SampleClock     |ClockDivider                 |    73|
++------+------------------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 296 ; free virtual = 26408
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 19 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1275.891 ; gain = 81.238 ; free physical = 296 ; free virtual = 26407
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1275.891 ; gain = 521.191 ; free physical = 296 ; free virtual = 26407
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 50 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 17 instances were transformed.
+  INV => LUT1: 1 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1275.891 ; gain = 429.461 ; free physical = 288 ; free virtual = 26400
+# write_checkpoint -noxdef AudioRecorder.dcp
+# catch { report_utilization -file AudioRecorder_utilization_synth.rpt -pb AudioRecorder_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.17 . Memory (MB): peak = 1275.891 ; gain = 0.000 ; free physical = 285 ; free virtual = 26397
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 23 20:05:04 2015...
